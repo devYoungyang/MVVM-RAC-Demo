@@ -3,32 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FCD91902623E949007BAF1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCD918F2623E949007BAF1F /* AppDelegate.m */; };
-		2FCD91932623E949007BAF1F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCD91922623E949007BAF1F /* SceneDelegate.m */; };
-		2FCD91962623E949007BAF1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCD91952623E949007BAF1F /* ViewController.m */; };
 		2FCD91992623E949007BAF1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCD91972623E949007BAF1F /* Main.storyboard */; };
 		2FCD919B2623E94A007BAF1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCD919A2623E94A007BAF1F /* Assets.xcassets */; };
 		2FCD919E2623E94A007BAF1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCD919C2623E94A007BAF1F /* LaunchScreen.storyboard */; };
 		2FCD91A12623E94A007BAF1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCD91A02623E94A007BAF1F /* main.m */; };
+		2FCD91FC2623ED3A007BAF1F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCD91E82623ED3A007BAF1F /* HomeViewController.m */; };
+		2FCD91FD2623ED3A007BAF1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCD91F22623ED3A007BAF1F /* ViewController.m */; };
+		2FCD91FE2623ED3A007BAF1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCD91F32623ED3A007BAF1F /* AppDelegate.m */; };
+		2FCD93C126241A37007BAF1F /* GoodsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCD93C026241A37007BAF1F /* GoodsViewModel.m */; };
+		2FCD93D526241A44007BAF1F /* GoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCD93D426241A44007BAF1F /* GoodsModel.m */; };
+		2FCD93D926241A6B007BAF1F /* GoodsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCD93D826241A6B007BAF1F /* GoodsTableViewCell.m */; };
+		2FCD93EF26253908007BAF1F /* GoodsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCD93EE26253908007BAF1F /* GoodsListView.m */; };
+		7F8B267C629A277C6F61D285 /* Pods_MVVMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF59990291765C8FF3BFC8DB /* Pods_MVVMDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2FCD918B2623E949007BAF1F /* MVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FCD918E2623E949007BAF1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2FCD918F2623E949007BAF1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2FCD91912623E949007BAF1F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		2FCD91922623E949007BAF1F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		2FCD91942623E949007BAF1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2FCD91952623E949007BAF1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2FCD91982623E949007BAF1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FCD919A2623E94A007BAF1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FCD919D2623E94A007BAF1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FCD919F2623E94A007BAF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FCD91A02623E94A007BAF1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FCD91E82623ED3A007BAF1F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2FCD91E92623ED3A007BAF1F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2FCD91F12623ED3A007BAF1F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FCD91F22623ED3A007BAF1F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FCD91F32623ED3A007BAF1F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FCD91F42623ED3A007BAF1F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FCD920E2623EEDA007BAF1F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2FCD93BF26241A37007BAF1F /* GoodsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsViewModel.h; sourceTree = "<group>"; };
+		2FCD93C026241A37007BAF1F /* GoodsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsViewModel.m; sourceTree = "<group>"; };
+		2FCD93D326241A44007BAF1F /* GoodsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsModel.h; sourceTree = "<group>"; };
+		2FCD93D426241A44007BAF1F /* GoodsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsModel.m; sourceTree = "<group>"; };
+		2FCD93D726241A6B007BAF1F /* GoodsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsTableViewCell.h; sourceTree = "<group>"; };
+		2FCD93D826241A6B007BAF1F /* GoodsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsTableViewCell.m; sourceTree = "<group>"; };
+		2FCD93ED26253908007BAF1F /* GoodsListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsListView.h; sourceTree = "<group>"; };
+		2FCD93EE26253908007BAF1F /* GoodsListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsListView.m; sourceTree = "<group>"; };
+		87B6CAD523DEFBCA29B9EB47 /* Pods-MVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMDemo.debug.xcconfig"; path = "Target Support Files/Pods-MVVMDemo/Pods-MVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AF59990291765C8FF3BFC8DB /* Pods_MVVMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92F0325A98ADA156CAB3D8D /* Pods-MVVMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMDemo.release.xcconfig"; path = "Target Support Files/Pods-MVVMDemo/Pods-MVVMDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F8B267C629A277C6F61D285 /* Pods_MVVMDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10903A9A61AFCD0DD67F19A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87B6CAD523DEFBCA29B9EB47 /* Pods-MVVMDemo.debug.xcconfig */,
+				B92F0325A98ADA156CAB3D8D /* Pods-MVVMDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2FCD91822623E949007BAF1F = {
 			isa = PBXGroup;
 			children = (
 				2FCD918D2623E949007BAF1F /* MVVMDemo */,
 				2FCD918C2623E949007BAF1F /* Products */,
+				10903A9A61AFCD0DD67F19A5 /* Pods */,
+				9EE838DF5809ACE194B5E7D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,12 +90,7 @@
 		2FCD918D2623E949007BAF1F /* MVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2FCD918E2623E949007BAF1F /* AppDelegate.h */,
-				2FCD918F2623E949007BAF1F /* AppDelegate.m */,
-				2FCD91912623E949007BAF1F /* SceneDelegate.h */,
-				2FCD91922623E949007BAF1F /* SceneDelegate.m */,
-				2FCD91942623E949007BAF1F /* ViewController.h */,
-				2FCD91952623E949007BAF1F /* ViewController.m */,
+				2FCD91E42623ED3A007BAF1F /* Modules */,
 				2FCD91972623E949007BAF1F /* Main.storyboard */,
 				2FCD919A2623E94A007BAF1F /* Assets.xcassets */,
 				2FCD919C2623E94A007BAF1F /* LaunchScreen.storyboard */,
@@ -76,6 +100,180 @@
 			path = MVVMDemo;
 			sourceTree = "<group>";
 		};
+		2FCD91E42623ED3A007BAF1F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2FCD93DB26241AC8007BAF1F /* BaseClasses */,
+				2FCD91E52623ED3A007BAF1F /* Home */,
+				2FCD91EC2623ED3A007BAF1F /* Tools */,
+				2FCD91ED2623ED3A007BAF1F /* Resources */,
+				2FCD91EE2623ED3A007BAF1F /* NetWork */,
+				2FCD91EF2623ED3A007BAF1F /* ShoppingCar */,
+				2FCD91F02623ED3A007BAF1F /* Others */,
+				2FCD91F52623ED3A007BAF1F /* Macros */,
+				2FCD91F62623ED3A007BAF1F /* Mine */,
+				2FCD91FB2623ED3A007BAF1F /* Categories */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2FCD91E52623ED3A007BAF1F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2FCD91E62623ED3A007BAF1F /* ViewModel */,
+				2FCD91E72623ED3A007BAF1F /* Controller */,
+				2FCD91EA2623ED3A007BAF1F /* Model */,
+				2FCD91EB2623ED3A007BAF1F /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2FCD91E62623ED3A007BAF1F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2FCD93BF26241A37007BAF1F /* GoodsViewModel.h */,
+				2FCD93C026241A37007BAF1F /* GoodsViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2FCD91E72623ED3A007BAF1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FCD91E92623ED3A007BAF1F /* HomeViewController.h */,
+				2FCD91E82623ED3A007BAF1F /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2FCD91EA2623ED3A007BAF1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FCD93D326241A44007BAF1F /* GoodsModel.h */,
+				2FCD93D426241A44007BAF1F /* GoodsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FCD91EB2623ED3A007BAF1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FCD93D726241A6B007BAF1F /* GoodsTableViewCell.h */,
+				2FCD93D826241A6B007BAF1F /* GoodsTableViewCell.m */,
+				2FCD93ED26253908007BAF1F /* GoodsListView.h */,
+				2FCD93EE26253908007BAF1F /* GoodsListView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FCD91EC2623ED3A007BAF1F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2FCD91ED2623ED3A007BAF1F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2FCD91EE2623ED3A007BAF1F /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		2FCD91EF2623ED3A007BAF1F /* ShoppingCar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ShoppingCar;
+			sourceTree = "<group>";
+		};
+		2FCD91F02623ED3A007BAF1F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				2FCD91F12623ED3A007BAF1F /* AppDelegate.h */,
+				2FCD91F32623ED3A007BAF1F /* AppDelegate.m */,
+				2FCD91F22623ED3A007BAF1F /* ViewController.m */,
+				2FCD91F42623ED3A007BAF1F /* ViewController.h */,
+				2FCD920E2623EEDA007BAF1F /* PrefixHeader.pch */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		2FCD91F52623ED3A007BAF1F /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		2FCD91F62623ED3A007BAF1F /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				2FCD91F72623ED3A007BAF1F /* ViewModel */,
+				2FCD91F82623ED3A007BAF1F /* Controller */,
+				2FCD91F92623ED3A007BAF1F /* Model */,
+				2FCD91FA2623ED3A007BAF1F /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		2FCD91F72623ED3A007BAF1F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2FCD91F82623ED3A007BAF1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2FCD91F92623ED3A007BAF1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FCD91FA2623ED3A007BAF1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FCD91FB2623ED3A007BAF1F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		2FCD93DB26241AC8007BAF1F /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		9EE838DF5809ACE194B5E7D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF59990291765C8FF3BFC8DB /* Pods_MVVMDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FCD91A42623E94A007BAF1F /* Build configuration list for PBXNativeTarget "MVVMDemo" */;
 			buildPhases = (
+				4BA628374EC515F0CBE68D1F /* [CP] Check Pods Manifest.lock */,
 				2FCD91872623E949007BAF1F /* Sources */,
 				2FCD91882623E949007BAF1F /* Frameworks */,
 				2FCD91892623E949007BAF1F /* Resources */,
+				89CF3CAFAF13FE33BD4FF89D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,15 +340,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4BA628374EC515F0CBE68D1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVMDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89CF3CAFAF13FE33BD4FF89D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMDemo/Pods-MVVMDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMDemo/Pods-MVVMDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVMDemo/Pods-MVVMDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2FCD91872623E949007BAF1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FCD91962623E949007BAF1F /* ViewController.m in Sources */,
-				2FCD91902623E949007BAF1F /* AppDelegate.m in Sources */,
+				2FCD93D926241A6B007BAF1F /* GoodsTableViewCell.m in Sources */,
+				2FCD91FE2623ED3A007BAF1F /* AppDelegate.m in Sources */,
+				2FCD93C126241A37007BAF1F /* GoodsViewModel.m in Sources */,
+				2FCD93D526241A44007BAF1F /* GoodsModel.m in Sources */,
+				2FCD91FD2623ED3A007BAF1F /* ViewController.m in Sources */,
+				2FCD93EF26253908007BAF1F /* GoodsListView.m in Sources */,
 				2FCD91A12623E94A007BAF1F /* main.m in Sources */,
-				2FCD91932623E949007BAF1F /* SceneDelegate.m in Sources */,
+				2FCD91FC2623ED3A007BAF1F /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +534,15 @@
 		};
 		2FCD91A52623E94A007BAF1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87B6CAD523DEFBCA29B9EB47 /* Pods-MVVMDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58BG2F7YLT;
+				GCC_PREFIX_HEADER = MVVMDemo/Modules/Others/PrefixHeader.pch;
 				INFOPLIST_FILE = MVVMDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,12 +555,15 @@
 		};
 		2FCD91A62623E94A007BAF1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B92F0325A98ADA156CAB3D8D /* Pods-MVVMDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58BG2F7YLT;
+				GCC_PREFIX_HEADER = MVVMDemo/Modules/Others/PrefixHeader.pch;
 				INFOPLIST_FILE = MVVMDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

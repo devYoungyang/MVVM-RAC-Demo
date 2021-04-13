@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  MVVMDemo
+//
+//  Created by Yang on 2021/4/12.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "GoodsTableViewCell.h"
+#import "GoodsModel.h"
+#import "GoodsViewModel.h"
+
+#import <AsyncDisplayKit.h>
+#import <Chameleon.h>
+#import <AFNetworking/AFNetworking.h>
+#import <Masonry/Masonry.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <YYCategories/YYCategories.h>
+#import <SDAutoLayout/SDAutoLayout.h>
+#import <YYModel/YYModel.h>
+#import <Aspects/Aspects.h>
+#import "HomeViewController.h"
+
+
+#endif /* PrefixHeader_pch */
